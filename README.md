@@ -6,3 +6,5 @@ This was a school project 🏫
 - HTML
 - CSS
 - JavaScript (client and server)
+
+To start use `npm run build`
