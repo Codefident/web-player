@@ -1,3 +1,8 @@
 # web-player 🎵
 
-Odtwarzacz stworzony w ramach projektu szkolnego. 🏫
+This was a school project 🏫
+
+## Used technology
+- HTML
+- CSS
+- JavaScript (client and server)
