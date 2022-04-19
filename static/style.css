@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: Corbel;    
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+#sideBar{
+    width: 15%;
+    height: 85%;
+    background-color: #4d4d4d;
+    float: left;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#sideBar::-webkit-scrollbar{
+    display: none;
+}
+
+#sideBar img{
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+#main{
+    height: 85%;
+    width: 85%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #4d4d4d;
+    color: white;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#main::-webkit-scrollbar{
+    display: none;
+}
+
+#header{
+    color: lime;
+    margin-bottom: 50px;
+}
+
+#main table{
+    margin: 0 auto;
+    font-size: 1.5em;
+    width: 60%;
+}
+
+#main table td{
+    text-align: left;
+    padding: 10px;
+    border: none;
+}
+
+.title{
+    cursor: pointer;
+}
+
+#currentTrack{
+    background-color: #262626;
+}
+
+#footer{
+    width: 100%;
+    height: 15%;
+    box-sizing: border-box;
+    background-color: #262626;
+    float: left;
+    padding: 30px;
+}
+
+#trackTitle{
+    color: limegreen;
+    font-weight: bold;
+    float: left;
+    width: 50%;
+    font-size: 1.5em;
+}
+
+#controls_container{
+    margin: 0 auto;
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.controls{
+    height: 70%;
+    min-height: 20px;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
